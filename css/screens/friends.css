@@ -1,0 +1,40 @@
+#friends-display-link {
+    text-align: center;
+    display: block;
+    background-color: #fafafa;
+    padding: 10px 0px;
+    font-size: small
+}
+
+#friends-display-link i {
+    color: rgba(0, 0, 0, 0.3);
+    margin-right: 3px;
+    margin-bottom: 10px;
+}
+
+#friends-display-link .fa-chevron-right {
+    margin-left: 8px;
+}
+
+.friends-screen__channel {
+    justify-content: end;
+}
+
+.friends-screen {
+    padding: 0 var(--horizontal-space);
+}
+
+.friends-screen__channel {
+    margin-top: 25px;
+    margin-bottom: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    padding-top: 15px;
+    justify-content: space-between;
+    opacity: 0.6;
+}
+
+/* why channel-header not just channel? */
+.friends-screen__channel-header {
+    display: flex;
+    justify-content: space-between;
+}
