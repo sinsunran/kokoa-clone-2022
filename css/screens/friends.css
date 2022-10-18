@@ -18,19 +18,22 @@
 
 .friends-screen__channel {
     justify-content: end;
+    border-top: var(--border--between);
+  
 }
 
 .friends-screen {
     padding: 0 var(--horizontal-space);
+    
 }
 
 .friends-screen__channel {
     margin-top: 25px;
     margin-bottom: 20px;
-    border-top: 1px solid rgba(0, 0, 0, 0.3);
     padding-top: 15px;
     justify-content: space-between;
     opacity: 0.6;
+ 
 }
 
 /* why channel-header not just channel? */

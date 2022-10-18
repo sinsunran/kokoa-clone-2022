@@ -47,3 +47,7 @@ justify-content: space-between;
 .user-component__colunm:last-child {
     color: rgba(0, 0, 0, 0.3) ;
 }
+
+.user-component__time {
+    margin-bottom: 10px;
+}
