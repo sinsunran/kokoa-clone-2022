@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Friends Screen of Kokoa Talk</title>
+    <title>Chat Screen of Kokoa Talk</title>
   </head>
   <body>
     <div class="status-bar">
@@ -26,55 +26,39 @@
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header__title">Friends</h1>
+      <h1 class="screen-header__title">Chats</h1>
       <div class="screen-header__icons">
         <!-- search -->
         <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+        <!-- plus -->
+        <span><i class="fa-sharp fa-solid fa-comments"></i></span>
         <!-- music -->
-        <span><i class="fa-solid fa-music fa-lg"></i></i></span>
+        <span><i class="fa-solid fa-music fa-lg"></i></span>
         <!-- settings -->
         <span><i class="fa-solid fa-gear fa-lg"></i></span>
       </div>
     </header>
 
-    <a id="friends-display-link">
-      <i class="fa-solid fa-circle-info fa-lg"></i>Friends Names Display<i class="fa-solid fa-chevron-right fa-xs"></i>
-    </a>
-
-    <main class="friends-screen">
-    <div class="user-component">
-      <div class="user-component__colunm">
-        <img src="https://www.warhammer-community.com/wp-content/uploads/2018/12/Vigulus-Dec4-MarneusStockImage-9lt.jpg" 
-        class="user-component__avatar user-component__avatar--xl" />
-        <div class="user-component__text">
-          <h4 class="user-component__title">JH</h4>
-          <!-- <h6 class="user-component__subtitle">this text whatever</h6> -->
-        </div>
-      </div>
-      <div class="user-component__colunm"></div>
-    </div>
-
-    <div class="friends-screen__channel">
-      <div class="friends-screen__channel-header">
-        <span>Channel</span><i class="fa-sharp fa-solid fa-chevron-up"></i>
-      </div>
-    </div>
-    
+    <main class="chat-screen">
       <div class="user-component">
         <div class="user-component__colunm">
-          <img src="https://www.warhammer-community.com/wp-content/uploads/2018/12/Vigulus-Dec4-MarneusStockImage-9lt.jpg" 
-          class="user-component__avatar user-component__avatar--sm" />
+          <img
+            src="https://www.warhammer-community.com/wp-content/uploads/2018/12/Vigulus-Dec4-MarneusStockImage-9lt.jpg"
+            class="user-component__avatar user-component__avatar"
+          />
           <div class="user-component__text">
-            <h4 class="user-component__title user-component__title--not-bold">Channel</h4>
-            <!-- <h6 class="user-component__subtitle">this text whatever</h6> -->
+            <h4 class="user-component__title">JH</h4>
+            <h6 class="user-component__subtitle">
+              Please check My Kakao Account info
+            </h6>
           </div>
         </div>
         <div class="user-component__colunm">
-          <span>2</span><i class="fa-solid fa-chevron-right fa-xs"></i>
+          <span>21:22</span>
+          <span>1</span>
         </div>
       </div>
-
-  </main>
+    </main>
 
     <nav class="nav">
       <ul class="nav__list">
@@ -86,7 +70,7 @@
         </li>
         <!-- message -->
         <li class="nav__btn">
-          <a class="nav__link" href="#"
+          <a class="nav__link" href="chat.html"
             ><span class="nav__notification">1</span>
             <i class="fa-sharp fa-solid fa-comment-dots"></i
           ></a>
