@@ -2,6 +2,11 @@
     display: flex;
     padding: 40px 25px 10px 25px;
     align-items: center;
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 2;
+    top: 0;
 }
 
 .alt-screen-header__title {
@@ -9,11 +14,32 @@
     font-weight: 600;
 }
 
+.alt-screen-header__column {
+    width: 33%;
+}
+
 .alt-screen-header__column:first-child {
-margin-right: auto;
+    display: flex;
+    justify-content: flex-start;
+    margin-right: auto;
+}
+
+.alt-screen-header__column:nth-child(2){
+    text-align: center;
 }
 
 .alt-screen-header__column:last-child {
     margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
 }
 
+/* why I cannot use .alt-screen-header span:last-child? */
+.alt-screen-header .alt-screen-header__column:last-child span {
+    margin-left: 20px;
+}
+
+
+#chat-screen .alt-screen-header {
+    background-color: #abc1d1;
+}

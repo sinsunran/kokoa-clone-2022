@@ -10,6 +10,10 @@
     margin-right: 10px;
 }
 
+.settings-setting:first-child {
+    margin-top: 50px;
+}
+
 .settings-setting:last-child {
     padding-bottom: 50px;
 }
