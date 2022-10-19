@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chat Screen of Kokoa Talk</title>
+    <title>setting Screen of Kokoa Talk</title>
   </head>
   <body>
     <div class="status-bar">
@@ -25,40 +25,47 @@
       </div>
     </div>
 
-    <header class="screen-header">
-      <h1 class="screen-header__title">Chats</h1>
-      <div class="screen-header__icons">
-        <!-- search -->
-        <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
-        <!-- plus -->
-        <span><i class="fa-sharp fa-solid fa-comments"></i></span>
-        <!-- music -->
-        <span><i class="fa-solid fa-music fa-lg"></i></span>
-        <!-- settings -->
-        <span
-          ><i class="fa-solid fa-gear fa-lg"></i><a href="setting.html"></a
-        ></span>
+    <header class="alt-screen-header fa-lg">
+      <div class="alt-screen-header__column">
+        <a href="more.html">
+          <i class="fa-solid fa-chevron-left"></i>
+        </a>
+      </div>
+      <div class="alt-screen-header__column">
+        <span class="alt-screen-header__title"> Settings </span>
+      </div>
+      <div class="alt-screen-header__column">
+        <i class="fa-solid fa-magnifying-glass"></i>
       </div>
     </header>
 
     <main class="main-screen">
-      <div class="user-component">
-        <div class="user-component__colunm">
-          <img
-            src="https://www.warhammer-community.com/wp-content/uploads/2018/12/Vigulus-Dec4-MarneusStockImage-9lt.jpg"
-            class="user-component__avatar user-component__avatar"
-          />
-          <div class="user-component__text">
-            <h4 class="user-component__title">JH</h4>
-            <h6 class="user-component__subtitle">
-              Please check My Kakao Account info
-            </h6>
-          </div>
-        </div>
-        <div class="user-component__colunm">
-          <span class="user-component__time">21:22</span>
-          <span class="badge">1</span>
-        </div>
+      <div class="settings fa-lg">
+        <ul class="settings-list">
+          <li class="settings-setting">
+            <div class="settings-setting__column">
+              <i class="fa-solid fa-bullhorn"></i>
+              <span>Notices</span>
+            </div>
+            <div class="settings-setting__column"></div>
+          </li>
+          <li class="settings-setting">
+            <div class="settings-setting__column">
+              <i class="fa-solid fa-flask"></i>
+              <span>Kakao Lab</span>
+            </div>
+            <div class="settings-setting__column"></div>
+          </li>
+          <li class="settings-setting">
+            <div class="settings-setting__column">
+              <i class="fa-solid fa-circle-exclamation"></i>
+              <span>Version</span>
+            </div>
+            <div class="settings-setting__column">
+              <span>Latest Version</span>
+            </div>
+          </li>
+        </ul>
       </div>
     </main>
 

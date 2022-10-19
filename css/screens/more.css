@@ -1,0 +1,8 @@
+.user-component__subtitle i {
+    color: tomato;
+    margin-left: 4px;
+}
+
+.user-component__logo {
+    color: var(--grey);
+}

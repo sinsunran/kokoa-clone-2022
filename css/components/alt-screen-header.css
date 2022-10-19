@@ -1,0 +1,19 @@
+.alt-screen-header {
+    display: flex;
+    padding: 40px 25px 10px 25px;
+    align-items: center;
+}
+
+.alt-screen-header__title {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.alt-screen-header__column:first-child {
+margin-right: auto;
+}
+
+.alt-screen-header__column:last-child {
+    margin-left: auto;
+}
+
