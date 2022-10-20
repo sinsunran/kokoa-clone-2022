@@ -13,3 +13,16 @@
 .screen-header__icons span {
     margin-left: 18px;
 }
+
+@keyframes rotategear {
+    from {
+        transform: none;
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+.screen-header__icons .fa-gear:hover {
+    animation: rotategear 4s ease-in-out infinite;
+}

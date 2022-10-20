@@ -112,3 +112,22 @@
 .openpost__heart-count span {
     margin-left: 4px;
 }
+
+@keyframes heartbeat {
+    0% {
+        transform: none;
+    }
+    50% {
+        transform: translateY(-1px);
+        font-size: medium;
+        color: tomato;
+    }
+    100% {
+        transform: none;
+    }
+}
+
+.openpost__heart-count:hover .fa-heart {
+    will-change: transform;
+    animation: heartbeat 0.5s linear;
+}
