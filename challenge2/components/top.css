@@ -1,0 +1,34 @@
+#top {
+    margin-top: 15px;
+    overflow-x: hidden;
+    padding: 0 15px 0 15px;
+}
+
+#top header {
+    font-size: 23px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+#top img {
+    border-radius: 7px;
+    width: 78px;
+    height: 110px;
+    margin-bottom: 13px;
+}
+
+#top article {
+    display: flex;
+}
+
+#top article > div {
+    margin-right: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#top article > div span {
+   font-size: 10px;
+   color: gold;
+}

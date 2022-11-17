@@ -1,0 +1,30 @@
+#controls {
+    display: flex;
+    align-items: center;  
+    margin-top: 30px; 
+    justify-content: center;
+}
+
+#controls div  {
+    border: solid black;
+    border-width: 2px 2px 6px 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    font-weight: 900;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    margin-right: 20px;
+}
+
+#controls div:first-child {
+    width: 150px;
+    border-radius: 10px;
+}
+
+#controls div:first-child span {
+    font-size: large;
+    margin-left: 10px;
+}

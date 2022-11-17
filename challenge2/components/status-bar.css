@@ -1,0 +1,10 @@
+#status-bar {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: gold;
+    padding: 30px 20px 40px 20px;
+    font-weight: 700;
+    width: 370px;
+    position: relative;
+}

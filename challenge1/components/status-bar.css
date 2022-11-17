@@ -1,0 +1,22 @@
+#status-bar {
+    display: flex;
+    margin-bottom: 40px;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+}
+
+#status-bar div {
+    font-weight: 800;
+    font-size: x-large;
+}
+
+#status-bar div:first-child {
+    color: black;
+    position: absolute;
+    left: 0px
+}
+
+#status-bar span {
+    font-size: x-large;
+}

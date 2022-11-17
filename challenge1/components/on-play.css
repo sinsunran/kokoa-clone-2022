@@ -1,0 +1,35 @@
+#on-play {
+    display: flex;
+    align-items: center;
+}
+
+#on-play .cover {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color: white;
+    font-size: 40px;
+    height: 120px;
+    width: 120px;
+    background-color: orange;
+    border-radius: 20px;
+    border: 2px solid black;
+    margin-right: 15px;
+}
+
+#on-play > div:last-child {
+    display: flex;
+    flex-direction: column;
+}
+
+#on-play span:first-child {
+    font-size: 40px;
+    font-weight: 1000;
+    margin-bottom: 10px;
+    line-height: 100%;
+}
+
+#on-play span:last-child {
+    font-weight: 1000;
+    font-size:larger;
+}

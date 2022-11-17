@@ -1,0 +1,51 @@
+#play-list {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.play-item {
+    display: flex;
+    margin-top: 40px;
+}
+
+.play-item div:last-child{
+    display: flex;
+    flex-direction: column;
+}
+
+#play-list .cover {
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.play-item:first-child .cover{
+    background-color: tomato;
+}
+
+.play-item:nth-child(2) .cover{
+    background-color: plum;
+}
+
+.play-item:nth-child(3) .cover{
+    background-color:blue;
+}
+
+.play-item:last-child .cover{
+    background-color:teal;
+}
+
+.play-item span:first-child {
+    font-weight:1000;
+    font-size: larger;
+    margin-bottom: 4px;
+}
+
+.play-item span:last-child {
+    font-weight: lighter;
+    color: gray;
+    font-size: small;
+}

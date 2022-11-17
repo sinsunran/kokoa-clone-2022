@@ -1,0 +1,27 @@
+#search {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top:-22px;
+}
+
+#search div {
+    display: flex;
+    justify-content: space-between;
+    width: 340px;
+    padding: 10px 10px 10px 30px;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: white;
+}
+
+input {
+    width: 250px;
+    border: none;
+}
+
+#search button {
+    border: none;
+    background-color: white;
+    color: gray;
+}

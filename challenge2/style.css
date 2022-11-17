@@ -1,0 +1,21 @@
+@import "components/status-bar.css";
+@import "components/search-bar.css";
+@import "components/daily.css";
+@import "components/top.css";
+@import "components/popular.css";
+
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+#page {
+    background-color: rgb(246, 252, 252);
+ 
+    width: 370px;
+}
+
+* {
+    box-sizing: border-box
+}
