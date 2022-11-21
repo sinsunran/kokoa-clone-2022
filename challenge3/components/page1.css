@@ -1,0 +1,144 @@
+#info {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#info img {
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    margin-bottom: 30px;
+}
+
+#info div:nth-child(2) {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+
+#info div:last-child {
+    font-size: 13px;
+    color: gray;
+    margin-top: 10px;
+}
+
+#buttons {
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+}
+
+#buttons button {
+    width: 110px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    margin: 0 8px;
+}
+
+#buttons button:first-child {
+    color: white;
+    background-color: black;
+    font-weight: 300;
+}
+
+#buttons button:last-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px rgb(216, 211, 211);
+}
+
+#buttons button:last-child i {
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+
+#buttons button:last-child span {
+    color: gray;
+}
+
+#playlist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+
+#playlist li {
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+    box-shadow: 1px 1px 1px 1px rgb(216, 211, 211);
+    border-radius: 15px;
+    padding: 5px 20px 5px 20px;
+}
+
+.song-info {
+    position: relative;
+    left: -40px;
+}
+
+.song-info div:first-child {
+    color: gray;
+    font-size: 12px;
+    margin-bottom: 7px;
+} 
+.song-info div:last-child {
+    font-size: 16px;
+    font-weight: bolder;
+} 
+
+
+#playlist img {
+    width: 50px; 
+    height: 50px;
+    border-radius: 10px;
+}
+
+#playlist i {
+    color: gray;
+    font-size: 22px;
+}
+
+#control-one {
+    width: 290px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    border-radius: 30px;
+    align-items: center;
+    padding: 0 25px 0 25px;
+}
+
+#control-one > div {
+    color: white;
+}
+
+#control-one >div:first-child >div:first-child {
+    font-size: 13px;
+    color: gray;
+    margin-bottom: 6px;
+}
+
+#control-one >div:first-child >div:last-child {
+    font-size: 16px;
+}
+
+#control-one > div:last-child {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    align-items: center;
+}
+
+#control-one > div:last-child i:nth-child(2){
+    font-size: 25px;
+}

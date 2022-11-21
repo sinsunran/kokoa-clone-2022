@@ -14,6 +14,18 @@
     margin-left: 18px;
 }
 
+#id-icon {
+    width: 34px;
+    height: 34px;
+    border-radius: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: 2px solid black;
+    font-weight: 700;
+}
+
 @keyframes rotategear {
     from {
         transform: none;

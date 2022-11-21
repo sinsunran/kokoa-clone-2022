@@ -6,3 +6,6 @@
 .user-component__logo {
     color: var(--grey);
 }
+.user-component {
+    margin-bottom: 20px;
+}
