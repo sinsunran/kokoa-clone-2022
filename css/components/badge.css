@@ -16,5 +16,7 @@
     height: 4px;
     border-radius: 2px;
     background-color: tomato;
-    
+    position: relative;
+    right: -20px;
+    top: -20px;
 }
